@@ -1,0 +1,50 @@
+HashMap
+
+Map의 기본 형식으로,   key : value  를 한 쌍으로 데이터를 저장하며 중복된 키가 존재하지 않는다.
+Map에 있는 데이터는 키 값을 기준으로 가져온다.
+
+MultiValueMap
+
+키 중복 가능
+
+
+Map.put(key, value);	Map 안에 값 넣기
+
+Map.get(key);	Map 안의 값 가져오기
+
+Map.size();	Map 크기 확인
+
+Map.replace(key, value);	replace()는 인자로 전달된 key의 value를 인자로 전달된 value로 교체해 줍니다. 교체되어 삭제되는 value는 리턴됩니다. 존재하지 않는 key가 인자로 전달되면 null이 리턴됩니다.
+
+Map.containsKey(key); containsKey()는 HashMap에 인자로 전달된 key가 존재하면 true를 리턴하고 그렇지 않으면 false를 리턴합니다.
+
+Map.containsValue(value);	containsValue()는 HashMap에 인자로 전달된 key가 존재하면 true를 리턴하고 그렇지 않으면 false를 리턴합니다.
+
+Map.isEmpty();	Map의 크기가 0인지 확인
+
+Map.remove(key);	Map 안의 내용 삭제 (remove()는 인자로 전달된 key에 해당하는 데이터를 삭제합니다. 삭제가 되면 value가 리턴됩니다. 존재하지 않는 데이터라면 null이 리턴됩니다)
+
+Map.getOrDefault(key, default);	Key가 있으면 Value를 가져오고 없으면 default값 가져오기
+
+putAll()은 인자로 전달된 Map에 대한 데이터를 모두 저장합니다.
+
+HashMap.keySet()은 HashMap에 저장된 key들을 Set 객체로 리턴해줍니다. //그래서 키값이 중복이 안되는거구나!!
+
+
+Map<String, Integer> fruits = new HashMap<>();
+fruits.put("apple", 1);
+fruits.put("banana", 2);
+fruits.put("kiwi", 3);
+
+Map<String, Integer> food = new HashMap<>();
+food.put("coffee", 1);
+food.put("hamburger", 2);
+food.put("sandwich", 3);
+
+food.putAll(fruits);
+System.out.println("food: " + food);
+
+output:
+food: {banana=2, apple=1, kiwi=3, coffee=1, sandwich=3, hamburger=2}
+
+
