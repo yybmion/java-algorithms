@@ -3,6 +3,7 @@
 ***
 boolean	add(E e)
 Adds the specified element to this set if it is not already present (optional operation).
+HashSet에 인자로 전달된 아이템을 저장하고, HashSet에 존재하지 않는 아이템이라면 true, 존재하는 아이템이라면 false를 리턴합니다.
 
 boolean	addAll(Collection<? extends E> c)
 Adds all of the elements in the specified collection to this set if they're not already present (optional operation).
