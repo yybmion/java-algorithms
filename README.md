@@ -22,8 +22,8 @@ This is the **bold** text and this is the *italic* text and let's do ~~strikethr
 
 <!-- Bullet list -->
 Fruits:
-* :sunny: 
-* :rain:
+* :lemon: 
+* :apple:
 
 Other fruits:
 - :banana:
