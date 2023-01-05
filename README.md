@@ -1,6 +1,6 @@
 # Welcome to java-algorithms
 
-## Let me introduce basic markdown grammer
+## Let me show basic markdown grammer
 
 <!-- Heading -->
 # Heading 1
@@ -22,12 +22,12 @@ This is the **bold** text and this is the *italic* text and let's do ~~strikethr
 
 <!-- Bullet list -->
 Fruits:
-* 
-* 
+* :sunny: 
+* :rain:
 
 Other fruits:
-- 
-- 
+- :banana:
+- :peach:
 
 <!-- Numbered list -->
 Numbers:
