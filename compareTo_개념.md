@@ -23,3 +23,10 @@ Arrays.sort(strings,(s1, s2) -> {
             return s1.charAt(n)-s2.charAt(n); -- 이렇게 원하는 방식(특정)으로 정렬 가능
         });
 ```
+
+String_sort 예제
+![description](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcfyCSI%2Fbtrhgj4CeYg%2Flvq7NQkSsNWpSEN87EV8X0%2Fimg.png)
+
+> 출처(https://sinsucoding.tistory.com/14)
+
+
