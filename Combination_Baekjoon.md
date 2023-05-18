@@ -34,7 +34,9 @@ public class Main {
 
 ![image](https://github.com/yybmion/java-algorithms/assets/113106136/6621c93d-14e3-452f-99cf-6a07038dc130)
 
-- 파스칼의 삼각
+
+- 파스칼의 삼각형
+
 ![image](https://github.com/yybmion/java-algorithms/assets/113106136/c3a5cf10-e743-400c-9fef-f476a5765d45)
 
 ```java
