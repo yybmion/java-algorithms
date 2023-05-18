@@ -121,4 +121,52 @@ class Main {
       return total;
   }
       }
-      
+```
+
+![image](https://github.com/yybmion/java-algorithms/assets/113106136/74d89606-14c4-48e4-bad9-d0d7685fe7e9)
+
+![image](https://github.com/yybmion/java-algorithms/assets/113106136/0cde21ab-84a0-420f-914c-d2a7d546da53)
+
+> 1010 다리놓기
+
+- 예로들어 (1, 2, 3, 4, 5) 에서 (1, 3, 4) 를 뽑았다고 해보자. 이는 (3, 1, 4)이나, (3, 4, 1) 등 순서가 다르게 뽑혀도 조합은 뽑는 순서를 고려하지 않기 때문에 모두 1개의 경우로 보는 것이다.
+
+```java
+import java.math.BigDecimal;
+import java.text.NumberFormat;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scanner=new Scanner(System.in);
+		double num1=scanner.nextInt();
+		int num2=0;
+		int num3=0;
+		for(int i=0;i<num1;i++) {
+			num2=scanner.nextInt();
+			num3=scanner.nextInt();
+			
+			System.out.printf("%.0f\n",Comb(num3,num2));
+		}
+		
+	}
+	public static double Comb(double n3,double n2) {
+		double res1=1;
+		double res2=1;
+		
+		for(double j=n3;j>n3-n2;j--) {
+			res1*=j;
+		}
+		
+		for(double j=n2;j>0;j--) {
+			res2*=j;
+		}
+		
+		return res1/res2;
+	}
+
+}
+```
+
